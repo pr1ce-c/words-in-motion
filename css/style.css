@@ -5,6 +5,13 @@ ooo yeyaaaa
 }
 
 p {
+    top: 30%;
     text-align: left;
-    
+    position: absolute;
+    transition-duration: 5s;
+    cursor:crosshair;
+}
+
+p:hover {
+    transform: rotate(1000deg);
 }
