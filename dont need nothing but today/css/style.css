@@ -10,8 +10,35 @@ p {
     position: absolute;
     transition-duration: 5s;
     cursor:crosshair;
+    font-family: "panel-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 p:hover {
     transform: rotate(1000deg);
 }
+
+#todays {
+    font-family: "panel-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.today1 {
+    /*transition: opacity 2s ease-in none;*/
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;*/
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1}
+}
+
+
+
+
