@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    box-sizing: border-box; 
+ }
+
+ body {
+    font-family: "panel-sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+ }

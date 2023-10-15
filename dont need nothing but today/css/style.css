@@ -8,23 +8,30 @@ p {
     top: 50%;
     text-align: left;
     position: absolute;
-    transition-duration: 5s;
-    cursor:crosshair;
     font-family: "panel-sans", sans-serif;
     font-weight: 400;
     font-size: 25px;
     font-style: normal;
 }
 
+
+.wait {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
 #Tomorrow {
     font-family: "panel-sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 25px;
+    text-align: center;
 }
 
-p:hover {
-    transform: rotate(1000deg);
-}
+
 
 #todays {
     font-family: "panel-sans", sans-serif;
