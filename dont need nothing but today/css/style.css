@@ -12,6 +12,13 @@ p {
     cursor:crosshair;
     font-family: "panel-sans", sans-serif;
     font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+}
+
+#Tomorrow {
+    font-family: "panel-sans", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -24,16 +31,24 @@ p:hover {
     font-weight: 400;
     font-style: normal; 
 }
-
+code pin for help w hover fade in animation
 .today1 {
     /*transition: opacity 2s ease-in none;*/
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;*/
+    -ms-animation: fadeIn 5s;
 }
 
+.day1 {
+    animation: fadeIn 7s;
+    -webkit-animation: fadeIn 7s;
+    -moz-animation: fadeIn 7s;
+    -o-animation: fadeIn 7s;
+    -ms-animation: fadeIn 7s;
+
+}
 @keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1}
