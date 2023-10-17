@@ -2,16 +2,11 @@ ooo yeyaaaa
 * {
    margin: 0;
    box-sizing: border-box; 
+   background-color: #F2F2F2;
 }
 
-p {
-    top: 50%;
-    text-align: left;
-    position: absolute;
-    font-family: "panel-sans", sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    font-style: normal;
+body {
+    color: #262322;
 }
 
 
@@ -21,6 +16,7 @@ p {
     -moz-animation: fadeIn 10s;
     -o-animation: fadeIn 10s;
     -ms-animation: fadeIn 10s;
+    color: #BF808C;
 }
 
 #Tomorrow {
@@ -32,7 +28,8 @@ p {
 }
 
 .up {
-    
+    transform: translate();
+    color: #91B7D9;
 }
 
 #todays {
@@ -59,6 +56,12 @@ code pin for help w hover fade in animation
     -ms-animation: fadeIn 7s;
 
 }
+
+a {
+    text-decoration: none;
+    color: #8C515C; 
+}
+
 @keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1}
