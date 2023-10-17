@@ -7,6 +7,7 @@ This song, Small Worlds by Mac Miller, focuses on the nuance of human existence.
 
 # Technical Overview
 
-HTML, CSS; with a greater focus on CSS transitions & transformations on text.
+HTML, CSS; with a greater focus on CSS transitions & transformations on text. Utilizes hover fadeIn animations and translate transformations created on VS Code. 
 
 # acknowledgement
+Code borrowed from the Internet; help with hover fadeIn animations from Stack Overflow & CodePen. 
