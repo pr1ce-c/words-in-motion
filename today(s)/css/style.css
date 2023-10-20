@@ -1,35 +1,11 @@
-ooo yeyaaaa
 * {
-   margin: 0;
-   box-sizing: border-box; 
-   background-color: #F2F2F2;
-}
-
-body {
-    color: #262322;
-}
-
-
-.wait {
-    animation: fadeIn 10s;
-    -webkit-animation: fadeIn 10s;
-    -moz-animation: fadeIn 10s;
-    -o-animation: fadeIn 10s;
-    -ms-animation: fadeIn 10s;
-    color: #BF808C;
-}
-
-#Tomorrow {
-    font-family: "panel-sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 25px;
     text-align: center;
 }
-
-.up {
-    transform: translate();
-    color: #91B7D9;
+body {
+    font-family: "panel-sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal; 
 }
 
 #todays {
@@ -48,8 +24,16 @@ code pin for help w hover fade in animation
     -ms-animation: fadeIn 5s;
 }
 
-.day1 {
+.today1:hover {
     animation: fadeIn 7s;
+    -webkit-animation: fadeIn 7s;
+    -moz-animation: fadeIn 7s;
+    -o-animation: fadeIn 7s;
+    -ms-animation: fadeIn 7s;  
+}
+
+.day1 {
+   animation: fadeIn 7s;
     -webkit-animation: fadeIn 7s;
     -moz-animation: fadeIn 7s;
     -o-animation: fadeIn 7s;
@@ -57,16 +41,12 @@ code pin for help w hover fade in animation
 
 }
 
-a {
-    text-decoration: none;
-    color: #8C515C; 
-}
-
 @keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1}
 }
 
-
-
-
+a {
+    text-decoration: none;
+    color: #8C515C; 
+}
