@@ -1,0 +1,49 @@
+ooo yeyaaaa
+* {
+   margin: 0;
+   box-sizing: border-box; 
+   background-color: #F2F2F2;
+}
+
+body {
+    color: #262322;
+}
+
+
+#centered{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Tomorrow {
+    font-family: "panel-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+
+    display:grid;
+    place-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #8C515C; 
+    
+}
+
+a:hover{
+    transform: skew(-35deg);
+    -webkit-transform: skew(-35deg);
+    -moz-transform: skew(-35deg);
+    -o-transform: skew(-35deg);
+    -ms-transform: skew(-35deg);
+}
+
+
+
+
+
