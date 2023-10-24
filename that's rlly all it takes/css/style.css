@@ -16,7 +16,30 @@ a {
    color: #ABBCCC;
 }
 
-#really {
-   color: #ABBCCC;
+a:hover {
+   color: #8C93A3;
 }
 
+#really {
+   color: #ABBCCC;
+   animation: fadeIn 3s;
+   -webkit-animation: fadeIn 3s;
+   -moz-animation: fadeIn 3s;
+   -o-animation: fadeIn 3s;
+   -ms-animation: fadeIn 3s;
+
+   transition-duration: 3s;
+}
+
+#centered {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1}
+}
