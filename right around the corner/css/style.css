@@ -10,37 +10,37 @@ body {
 }
 
 
-.wait {
-    animation: fadeIn 10s;
-    -webkit-animation: fadeIn 10s;
-    -moz-animation: fadeIn 10s;
-    -o-animation: fadeIn 10s;
-    -ms-animation: fadeIn 10s;
-    color: #BF808C;
+#centered{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#Tomorrow {
+.Tomorrow {
     font-family: "panel-sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
     text-align: center;
-}
 
-.up {
-    transform: translate();
-    color: #91B7D9;
+    display:grid;
+    place-items: center;
 }
 
 
 a {
     text-decoration: none;
     color: #8C515C; 
-    transform: skew(10%)
+    
 }
 
 a:hover{
-    
+    transform: skew(-35deg);
+    -webkit-transform: skew(-35deg);
+    -moz-transform: skew(-35deg);
+    -o-transform: skew(-35deg);
+    -ms-transform: skew(-35deg);
 }
 
 

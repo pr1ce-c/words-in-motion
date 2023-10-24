@@ -11,6 +11,14 @@ p {
     text-align: center;
 }
 
+#centered{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 .wait {
     animation: fadeIn 10s;
     -webkit-animation: fadeIn 10s;
@@ -32,8 +40,14 @@ p {
     font-size: 25px;
     font-style: normal;
     text-align: center;
-}
 
+    transform: translateX(1000px) scale(1.5) 5s; 
+    -webkit-transform: translate(50px, 200px) scale(1.5);
+    -moz-transform: translate(50px, 200px) scale(1.5);
+    -o-transform: translate(50px, 200px) scale(1.5);
+    -ms-transform: translate(50px, 200px) scale(1.5); */
+    
+}
 
 
 @keyframes fadeIn {
@@ -44,4 +58,8 @@ p {
 a {
     text-decoration: none;
     color: #8C515C; 
+}
+
+.up:hover {
+    
 }
