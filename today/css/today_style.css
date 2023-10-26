@@ -104,6 +104,7 @@ code pin for help w hover fade in animation
 a {
     text-decoration: none;
     color: #8C515C; 
+    transition-duration: 2s;
 }
 
 a:hover{

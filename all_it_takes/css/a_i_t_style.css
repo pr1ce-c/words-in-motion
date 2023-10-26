@@ -18,6 +18,7 @@ a {
 
 a:hover {
    color: #8C93A3;
+   transition-duration: 2s;
 }
 
 #really {
