@@ -10,3 +10,28 @@ body{
     font-style: normal;
     text-align: center;
 }
+
+#centered{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.restart{
+    font-family: "panel-sans", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: normal;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #8C515C;
+}
+
+a:hover{
+    color: #BF808C;
+}
+
